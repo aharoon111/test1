@@ -50,4 +50,4 @@ workflows:
     jobs:
       - say-hello
       - print_world
-      -print_myname
+      - print_myname
