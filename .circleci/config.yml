@@ -41,6 +41,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - print_world:
-        requires:
-            - say_hello
+      - print_world
